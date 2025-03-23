@@ -5,7 +5,7 @@ conexao = mysql.connector.connect(
     user=" ",
     password=" ",
     database=" ",
-    port=
+    port=" "
 )
 if conexao.is_connected():
     print("Conexão ao banco de dados realizada com sucesso!")
